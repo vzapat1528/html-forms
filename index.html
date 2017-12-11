@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>Order Now!</h1>
+  <form action="thanks.html" method="post">
+    <fieldset>
+      <legend>Shipping Info</legend>
+      <label for="name">Name:</label>
+      <input id="name" type="text" name="Name" size="15.5">
+      <br>
+
+      <label for="address">Address:</label>
+      <input id="address" type="text" name="Address" size="16">
+      <br>
+
+    <label for="city">City:</label>
+    <input id="city" type="text" name="City" size="12">
+
+    <label for="state">State:</label>
+    <input id="state" type="text" name="State" size="2">
+
+    <label for="zip">Zip:</label>
+    <input id="zip" type"text" name="Zip" size="6">
+    <br><br>
+  </fieldset>
+
+  <fieldset>
+    <legend>Order Info</legend>
+    <labe for="size">Size:</label>
+    <select id="size" name="Size">
+      <option value"small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+    </select>
+
+    <label for="quantity">Quantity:</label>
+    <input id="quantity" type"text" name"Quantity" size="5">
+   <br>
+ </fieldset>
+
+ <fieldset>
+   <legend>Payment Info</legend>
+   Card Type:
+   <input id="visa" type="radio" name="Card _Type" value="visa">
+   <label for="visa">Visa</label>
+
+   <input id="mc" type="radio" name="Card_Type" value="master card">
+   <label for="mc">Master Card</label>
+
+   <input id="disc" type="radio" name="Card_Type" value="discover">
+   <label for="disc">Discover</label>
+   <br>
+
+   <label for="cc_number">Credit Card Number:</label>
+   <input id="cc_number" type="text" name="Card_Number" size="16">
+   <br>
+ </fieldset>
+   <input type="submit" value="Place Order">
+  </form>
+
+</body>
+</html>
